@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>우리은행</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/woori_home.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/woori_home.js"></script>
+
+</head>
+<body>
+<!-- header -->
+    <header id="header">
+        <div class="inner">
+            <h1 class="header_logo">
+                <a href="#"><img src="img/h1_01.png" alt="wooribanklogo"></a>
+            </h1>
+            <div class="toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+                <p>전체메뉴</p>
+            </div>   
+            <nav class="menu_wrap">
+                <ul id="login">
+                    <li>
+                        <a href="#">로그인</a>
+                        <ul class="submenu">
+                            <li><a href="#">개인</a></li>
+                            <li><a href="#">기업</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">인증센터</a>
+                        <ul class="submenu">
+                            <li><a href="#">개인</a></li>
+                            <li><a href="#">기업</a></li>
+                        </ul>
+                    </li>
+                </ul>
+        
+                <ul id="maingnb">
+                    <li>
+                        <a href="#">개인</a>
+                        <ul class="submenu">
+                            <li><a href="#">개인뱅킹</a></li>
+                            <li><a href="#">조회</a></li>
+                            <li><a href="#">이체</a></li>
+                            <li><a href="#">오픈뱅킹</a></li>
+                            <li><a href="#">공과금</a></li>
+                            <li><a href="#">예금/신탁</a></li>
+                            <li><a href="#">펀드</a></li>
+                            <li><a href="#">보험</a></li>
+                             <li><a href="#">대출</a></li>
+                            <li><a href="#">외환/골드</a></li>
+                            <li><a href="#">퇴직연금</a></li>
+                            <li><a href="#">뱅킹관리</a></li>
+                            <li><a href="#">ISA</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">기업</a>
+                        <ul class="submenu">
+                            <li><a href="#">기업뱅킹</a></li>
+                            <li><a href="#">조회</a></li>
+                            <li><a href="#">이체</a></li>
+                            <li><a href="#">공과금</a></li>
+                            <li><a href="#">전자결제</a></li>
+                            <li><a href="#">수표어음</a></li>
+                            <li><a href="#">자금관리</a></li>
+                            <li><a href="#">예금/신탁</a></li>
+                             <li><a href="#">대출</a></li>
+                            <li><a href="#">펀드/보험</a></li>
+                            <li><a href="#">외환</a></li>
+                            <li><a href="#">퇴직연금</a></li>
+                            <li><a href="#">뱅킹관리</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">마이데이터</a></li>
+                    <li>
+                        <a href="#">자산관리</a>
+                        <ul class="submenu">
+                            <li><a href="#">자산관리</a></li>
+                            <li><a href="#">MY자산 진단</a></li>
+                            <li><a href="#">펀드 포트폴리오</a></li>
+                            <li><a href="#">퇴직연금 포트폴리오</a></li>
+                            <li><a href="#">WON챌린지</a></li>
+                            <li><a href="#">미래설계</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">금융상품</a>
+                        <ul class="submenu">
+                            <li><a href="#">금융상품</a></li>
+                            <li><a href="#">추천상품</a></li>
+                            <li><a href="#">예금</a></li>
+                            <li><a href="#">펀드</a></li>
+                            <li><a href="#">대출</a></li>
+                            <li><a href="#">외환</a></li>
+                            <li><a href="#">골드</a></li>
+                            <li><a href="#">신탁</a></li>
+                            <li><a href="#">보험</a></li>
+                            <li><a href="#">퇴직연금</a></li>
+                            <li><a href="#">시니어플러스 은퇴설계</a></li>
+                            <li><a href="#">ISA</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">카드</a>
+                        <ul class="submenu">
+                            <li><a href="#">카드</a></li>
+                            <li><a href="#">우리카드</a></li>
+                            <li><a href="#">롯데카드</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">전체메뉴</a></li>
+                    <li>
+                        <a href="#">GLOBAL</a>
+                        <ul class="submenu">
+                            <li><a href="#">LANGUAGE</a></li>
+                            <li><a href="#">English</a></li>
+                            <li><a href="#">Chinese (中國語)</a></li>
+                            <li><a href="#">Japanese (日本語)</a></li>
+                            <li><a href="#">Filipino (Tagalog)</a></li>
+                            <li><a href="#">Vietnamese (tiếng Việt)</a></li>
+                            <li><a href="#">Mongolian (Монгол хэл)</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><img src="img/search_icon.png" alt="search"></a></li>
+                </ul>
+            </nav> 
+        </div>
+    </header>
+<!-- notice -->
+    <section id="main_notice">
+        <div class="swiper mainslide">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><div class="inner"><img src="img/main_img1.png" alt="event1"></div></div>
+              <div class="swiper-slide"><div class="inner"><img src="img/mydata.jpeg" alt="event2"></div></div>
+              <div class="swiper-slide"><div class="inner"><img src="img/main_woori copy.jpg" alt=""></div></div>
+            </div>
+            <div class="swiper-btn">
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section> 
+<!-- mid menu -->
+    <section id="mid">
+        <div class="inner">
+            <div class="wrap">
+                <ul class="mid_menu">
+                    <li><a href="#">다른기관<br>정보조회</a></li>
+                    <li><a href="#">조회</a></li>
+                    <li><a href="#">이체</a></li>
+                    <li><a href="#">환율</a></li>
+                    <li><a href="#">빠른메뉴</a></li>
+                </ul>
+                <div class="q_menu">
+                    <div class="q_btn">
+                        <a href="#">
+                            <span class="q_btn_icon"><i class="fa-solid fa-chevron-right"></i></span>
+                        </a>
+                        <a href="#">
+                            <span class="q_btn_title">빠른메뉴</span>
+                        </a>
+                    </div>
+                    <div class="q_right">
+                        <div class="q_right_inner">
+                            <ul class="q_right_top">
+                                <li><a href="#"><strong>스피드계좌조회</strong></a></li>
+                                <li><a href="#">공과금</a></li>
+                                <li><a href="#">뱅킹관리</a></li>
+                            </ul>
+                            <ul class="q_right_bottom">
+                                <li><a href="#">고객광장</a></li>
+                                <li><a href="#">영업점안내</a></li>
+                                <li><a href="#">우리카드신청</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="quickicon"><i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section> 
+<!-- add menu -->
+    <section id="add_menu">
+        <div class="inner">
+            <ul class="submenu">
+                <li><a href="#">금융 소비자 보호</a></li>
+                <li><a href="#">보안 뉴스</a></li>
+                <li><a href="#">상품/약관 공시</a></li>
+            </ul>
+        </div>
+    </section>
+<!-- products -->
+    <section id="products" class="content">
+        <div class="inner">
+            <div class="icon_wrap">
+                <div class="left">
+                    <h2 class="title"><a href="#">금융상품</a></h2>
+                    <div class="icon_inner">
+                        <div class="mid_icon_menu">
+                            <div class="icon">
+                                <a href="#"><img src="img/icon_set_01.png" alt=""></a>
+                            </div>
+                            <div class="menu_nm">
+                                <p>예금</p>
+                            </div>
+                        </div>
+                        <div class="mid_icon_menu">
+                            <div class="icon">
+                                <a href="#"><img src="img/icon_set_02.png" alt=""></a>
+                            </div>
+                            <div class="menu_nm">
+                                <p>대출</p>
+                            </div>
+                        </div>
+                        <div class="mid_icon_menu">
+                            <div class="icon">
+                                <a href="#"><img src="img/icon_set_03.png" alt=""></a>
+                            </div>
+                            <div class="menu_nm">
+                                <p>펀드</p>
+                            </div>
+                        </div>
+                        <div class="mid_icon_menu">
+                            <div class="icon">
+                                <a href="#"><img src="img/icon_set_04.png" alt=""></a>
+                            </div>
+                            <div class="menu_nm">
+                                <p>외환</p>
+                            </div>
+                        </div>
+                        <div class="mid_icon_menu">
+                            <div class="icon">
+                                <a href="#"><img src="img/icon_set_05.png" alt=""></a>
+                            </div>
+                            <div class="menu_nm">
+                                <p>신탁</p>
+                            </div>
+                        </div>
+                        <div class="mid_icon_menu">
+                            <div class="icon">
+                                <a href="#"><img src="img/icon_set_06.png" alt=""></a>
+                            </div>
+                            <div class="menu_nm">
+                                <p>퇴직연금</p>
+                            </div>
+                        </div>
+                        <div class="mid_icon_menu">
+                            <div class="icon">
+                                <a href="#"><img src="img/icon_set_07.png" alt=""></a>
+                            </div>
+                            <div class="menu_nm">
+                                <p>보험</p>
+                            </div>
+                        </div>
+                        <div class="mid_icon_menu">
+                            <div class="icon">
+                                <a href="#"><img src="img/icon_set_08.png" alt=""></a>
+                            </div>
+                            <div class="menu_nm">
+                                <p>ISA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <h2 class="title"><a href="#">카드</a></h2>
+                    <div class="icon_inner">
+                        <div class="mid_icon_menu">
+                            <div class="icon">
+                                <a href="#"><img src="img/icon_set_09.png" alt=""></a>
+                            </div>
+                            <div class="menu_nm">
+                                <p>카드신청</p>
+                            </div>
+                        </div>
+                        <div class="mid_icon_menu">
+                            <div class="icon">
+                                <a href="#"><img src="img/icon_set_010.png" alt=""></a>
+                            </div>
+                            <div class="menu_nm">
+                                <p>나의카드</p>
+                            </div>
+                        </div>
+                        <div class="mid_icon_menu">
+                            <div class="icon">
+                                <a href="#"><img src="img/icon_set_011.png" alt=""></a>
+                            </div>
+                            <div class="menu_nm">
+                                <p>이벤트</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- services -->
+<section id="service" class="content">
+    <div class="inner">
+        <h2 class="title">서비스</h2>
+        <div class="service_wrap">
+            <div class="box">
+                <div class="pic"><img src="img/image_service_01.png" alt=""></div>
+                <div class="info">
+                    <h3 class="title">우리WON뱅킹</h3>
+                    <p class="txt">새 시대의 금융을 켜다,<br>우리은행 대표 모바일뱅킹 APP</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="pic"><img src="img/image_service_02_mydata.png" alt=""></div>
+                <div class="info">
+                    <h3 class="title">마이데이터</h3>
+                    <p class="txt">나의 데이터가 가치가 되는<br>새로운 경험을 체험해 보세요</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="pic"><img src="img/image_service_03.png" alt=""></div>
+                <div class="info">
+                    <h3 class="title">스마트간편신규</h3>
+                    <p class="txt">직원에게 추천받으신 상품을<br>간편하게 가입하세요</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- information -->
+    <section id="information" class="content">
+        <div class="inner">
+            <div class="info_wrap">
+                <div class="box">
+                    <div class="news_left">
+                        <div class="title">
+                        <span>새소식</span>
+                        <a href="#">더보기 ></a>
+                        </div>
+                    </div>
+                    <div class="news_right">
+                        <ul>
+                            <li>
+                                <a href="#">[채용] 2022년 상반기 우리은행 일반직 신입행원 채용안내</a>
+                                <p>2022.02.22</p>
+                            </li>
+                            <li>
+                                <a href="#">[공지] 2022년 한국의 국립공원 기념주화 예약접수</a>
+                                <p>2022.02.11</p>
+                            </li>
+                            <li>
+                                <a href="#">[공지] 코로나19 확산 방지를 위한 영업시간 단축안내</a>
+                                <p>2021.11.04</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="event_left">
+                        <div class="title">
+                        <span>이벤트</span>
+                        <a href="#">더보기 ></a>
+                        </div>
+                    </div>
+                    <div class="event_right">
+                        <ul>
+                            <li>
+                                <a href="#">우리WON기업 가입하고 2022년 꽃길만 걸어흥~</a>
+                                <p>2022.02.22</p>
+                            </li>
+                            <li>
+                                <a href="#">청년을 위한 우리미래드림바우처 II</a>
+                                <p>2022.02.11</p>
+                            </li>
+                            <li>
+                                <a href="#">우리 아이 첫 통장 만들고 1만원 받으세요! </a>
+                                <p>2021.11.04</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- footer -->
+    <footer id="footer">
+        <div class="inner">
+            <div class="wrap">
+                <div class="footer_content">
+                    <div class="link1">
+                        <ul class="more">
+                            <li>
+                                <a href="#">
+                                    <span>대표 1588-5000</span>
+                                    <img src="img/footer_more_icon.png" alt="">
+                                </a>
+                                <ul class="link_site">
+                                    <li class="title">
+                                        <a href="#">  ARS 이용안내</a>
+                                    </li>
+                                    <li>
+                                        <div class="left">
+                                            대표전화
+                                        </div>
+                                        <div class="right">
+                                            <p>1588-5000/1599-5000</p>
+                                            <p>82-2-2006-5000 (해외)</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="left">
+                                            고객의 말씀
+                                        </div>
+                                        <div class="right">
+                                        <p>080-365-5000</p>
+                                        <p>(휴대폰 02-2008-5000) </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="left">
+                                            신규상담
+                                        </div>
+                                        <div class="right">
+                                        <p>예적금 1599-8100</p>
+                                        <p>1599-8300</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>기타서비스</span>
+                                    <img src="img/footer_more_icon.png" alt="">
+                                </a>
+                                <ul class="link_site">
+                                    <li class="title"><a href="#" >기타서비스</a></li>
+                                    <li><a href="#">• 법원환급금조회</a></li>
+                                    <li><a href="#">• 미교부국민주조회</a></li>
+                                    <li><a href="#">• 상조회사예치금조회</a></li>
+                                    <li><a href="#">• 예금잔액증명서발급조회</a></li>
+                                    <li><a href="#">• 지급보증서발급조회</a></li>
+                                    <li><a href="#">• 서울시예치금내역조회</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>LANGUAGE</span>
+                                    <img src="img/footer_more_icon.png" alt="">
+                                </a>
+                                <ul class="link_site">
+                                    <li class="title"><a href="#">LANGUAGE</a></li>
+                                    <li><a href="#">English</a></li>
+                                    <li><a href="#">Chinese (中國語)</a></li>
+                                    <li><a href="#">Japanese (日本語)</a></li>
+                                    <li><a href="#">Filipino (Tagalog)</a></li>
+                                    <li><a href="#">Vietnamese (tiếng Việt)</a></li>
+                                    <li><a href="#">Mongolian (Монгол хэл)</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>패밀리사이트</span>
+                                    <img src="img/footer_more_icon.png" alt="">
+                                </a>
+                                <ul class="link_site">
+                                    <li class="title"><a href="#">패밀리사이트</a></li>
+                                    <li><a href="#">• 우리금융지주</a></li>
+                                    <li><a href="#">• 우리카드</a></li>
+                                    <li><a href="#">• 우리금융캐피탈</a></li>
+                                    <li><a href="#">• 우리종합금융</a></li>
+                                    <li><a href="#">• 우리자산신탁</a></li> 
+                                    <li><a href="#">• 우리자산운용</a></li>
+                                    <li><a href="#">• 우리금융저축은행</a></li>
+                                    <li><a href="#">• 우리신용정보</a></li>
+                                    <li><a href="#">• 우리펀드서비스</a></li>
+                                    <li><a href="#">• 우리PE</a></li>
+                                    <li><a href="#">• 우리글로벌자산운용</a></li>
+                                    <li><a href="#">• 우리FIS</a></li>
+                                    <li><a href="#">• 우리금융경영연구소</a></li>
+                                    <li><a href="#">• 우리다문화장학재단</a></li>
+                                    <li><a href="#">• 우리미소금융재단</a></li>
+                                    </ul>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="sns">
+                            <li>
+                                <a href="#"><img src="img/icon_facebook_gray.png" alt="facebook"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/icon_instagram_gray.png" alt="instagram"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/icon_post_naver_gray.png" alt="naverblog"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/icon_youtube_gray.png" alt="youtube"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/icon_navertv_gray.png" alt="navertv"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_content">
+                    <div class="link2">
+                        <div class="footer_logo">
+                            <a href="#"><img src="img/footer_icon_woori.gif" alt=""></a>
+                        </div>
+                        <div class="info">
+                            <p class="quicklink">
+                                <a href="#">은행소개&nbsp;&nbsp;|&nbsp;</a>
+                                <a href="#">영업점안내&nbsp;&nbsp;|&nbsp;</a>
+                                <a href="#">고객광장&nbsp;&nbsp;|&nbsp;</a>
+                                <a href="#">
+                                <strong>개인정보처리방침&nbsp;&nbsp;|&nbsp;</strong>
+                                </a>
+                                <a href="#">
+                                <strong>신용정보활용체제&nbsp;&nbsp;|&nbsp;</strong>
+                                </a>
+                                <a href="#">개인신용정보관리보호&nbsp;&nbsp;|&nbsp;</a>
+                                <a href="#">사고신고&nbsp;&nbsp;|&nbsp;</a>
+                                <a href="#">전자민원접수&nbsp;&nbsp;|&nbsp;</a>
+                                <a href="#">보호금융상품등록부&nbsp;&nbsp;|&nbsp;</a>
+                                <a href="#">상품공시실&nbsp;&nbsp;|&nbsp;</a>
+                                <a href="#">보안센터&nbsp;&nbsp;|&nbsp;</a>
+                                <a href="#">웹접근성 이용안내</a>
+                            </p>
+                            <p class="copyright">
+                                COPYRIGHTS WOORI BANK. ALL RIGHTS RESERVED.
+                            </p>
+                        </div>
+                        <div class="other">
+                            <a href="#"><img src="img/footer_icon_1.jpg" alt=""></a>
+                            <a href="#"><img src="img/footer_icon_2.gif" alt=""></a>
+                            <a href="#"><img src="img/footer_icon_3.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
