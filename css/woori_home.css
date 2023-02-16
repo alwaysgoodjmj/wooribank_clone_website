@@ -766,6 +766,24 @@ a {
   #mid .wrap .quickicon i {
     display: none;
   }
+  .q_menu {
+    position: static;
+  }
+  .q_btn {
+    width: 28%;
+  }
+  .q_btn > a:last-of-type .q_btn_title {
+    font-size: 1em;
+    padding: 0 25px;
+  }
+  .q_btn .q_btn_icon {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  .q_right {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
 }
 @media screen and (max-width: 580px) {
   #mid .mid_menu li {
@@ -780,6 +798,13 @@ a {
   }
   #mid .mid_menu li:last-of-type > a {
     font-size: 16px;
+  }
+  .q_btn {
+    width: 25%;
+  }
+  .q_btn > a:last-of-type .q_btn_title {
+    font-size: 1em;
+    padding: 0 10px;
   }
 }
 
